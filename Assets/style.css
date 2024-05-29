@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  background-color: var(--secondary);
 }
 
 :root {
@@ -19,6 +20,7 @@ header h1 {
   margin-left: 50px;
   margin-top: 20px;
   font-size: 48px;
+  background-color: var(--primary);
   color: var(--secondary);
 }
 
@@ -27,16 +29,23 @@ header nav {
   margin-right: 20px;
   float: right;
   font-size: 20px;
+  background-color: var(--primary);
 }
 
 header nav ul {
   list-style-type: none;
+  background-color: var(--primary);
 }
 
 header nav ul li {
   display: inline-block;
   margin-left: 50px;
   margin-top: 50px;
+  background-color: var(--primary);
+}
+
+header nav ul li a {
+  background-color: var(--primary);
 }
 
 main {
@@ -47,6 +56,7 @@ main {
 section {
   font-size: 20px;
   background-color: var(--secondary);
+  border-left: 5px solid var(--primary);
 }
 
 footer {
@@ -81,7 +91,6 @@ footer {
   float: left;
   width: 20%;
   height: 100%;
-  border-right: 10px solid rgb(43, 43, 187);
 }
 
 .about-me {
