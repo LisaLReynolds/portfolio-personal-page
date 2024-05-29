@@ -36,17 +36,69 @@ header nav ul li {
   margin-top: 50px;
 }
 
+main {
+  height: 500px;
+  width: 80%;
+}
+
 section {
-  height: 200px;
-  width: 100%;
+  font-size: 20px;
   background-color: antiquewhite;
 }
 
 .pretty {
   height: 300px;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   background-image: url(https://media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=);
   background-size: cover;
   background-position: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+  /* border-right: 10px solid rgb(43, 43, 187); */
+}
+
+.sidebar {
+  display: flex;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: left;
+  width: 20%;
+  height: 100%;
+  border-right: 10px solid rgb(43, 43, 187);
+}
+
+.about-me {
+  display: flex;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: center;
+  height: 200px;
+}
+
+.my-work {
+  display: flex;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: center;
+  height: 200px;
+}
+
+.contact-me {
+  display: flex;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: center;
+  height: 200px;
 }
