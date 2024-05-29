@@ -3,6 +3,9 @@
 }
 
 :root {
+  --primary: rgb(14, 121, 89);
+  --secondary:  antiquewhite;
+   
 }
 
 header {
@@ -37,7 +40,7 @@ header nav ul li {
 }
 
 main {
-  height: 500px;
+  height: 100%;
   width: 80%;
 }
 
@@ -49,7 +52,7 @@ section {
 .pretty {
   height: 300px;
   width: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   background-image: url(https://media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=);
   background-size: cover;
   background-position: center;
@@ -85,6 +88,11 @@ section {
   height: 200px;
 }
 
+.image {
+  height: 200px;
+  width: 200px;
+  padding-right: 50px;
+}
 .my-work {
   display: flex;
   padding: 50px;
