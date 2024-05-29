@@ -4,14 +4,13 @@
 
 :root {
   --primary: rgb(14, 121, 89);
-  --secondary:  antiquewhite;
-   
+  --secondary: antiquewhite;
 }
 
 header {
   height: 100px;
   width: 100%;
-  background-color: rgb(14, 121, 89);
+  background-color: var(--primary);
 }
 
 header h1 {
@@ -20,6 +19,7 @@ header h1 {
   margin-left: 50px;
   margin-top: 20px;
   font-size: 48px;
+  color: var(--secondary);
 }
 
 header nav {
@@ -46,7 +46,12 @@ main {
 
 section {
   font-size: 20px;
-  background-color: antiquewhite;
+  background-color: var(--secondary);
+}
+
+footer {
+  height: 100px;
+  width: 100%;
 }
 
 .pretty {
@@ -83,6 +88,7 @@ section {
   display: flex;
   padding: 50px;
   margin-bottom: 20px;
+  margin-right: 20px;
   font-size: 20px;
   align-items: center;
   height: 200px;
@@ -97,6 +103,7 @@ section {
   display: flex;
   padding: 50px;
   margin-bottom: 20px;
+  margin-right: 20px;
   font-size: 20px;
   align-items: center;
   height: 200px;
@@ -106,6 +113,7 @@ section {
   display: flex;
   padding: 50px;
   margin-bottom: 20px;
+  margin-right: 20px;
   font-size: 20px;
   align-items: center;
   height: 200px;
