@@ -37,8 +37,16 @@ header nav ul li {
 }
 
 section {
-  
+  height: 200px;
+  width: 100%;
+  background-color: antiquewhite;
 }
 
 .pretty {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url(https://media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=);
+  background-size: cover;
+  background-position: center;
 }
