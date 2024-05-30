@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
 }
 
 :root {
@@ -49,14 +49,15 @@ header nav ul li a {
 }
 
 main {
-  height: 100%;
-  width: 80%;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
   font-size: 20px;
-  background-color: var(--secondary);
-  border-left: 5px solid var(--primary);
+  background-color: var(--primary);
+  /* border-left: 5px solid var(--secondary); */
 }
 
 footer {
@@ -68,14 +69,14 @@ footer {
   height: 300px;
   width: 100%;
   margin-bottom: 20px;
-  background-image: url(https://media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=);
+  background-image: url(https://images.unsplash.com/photo-1593328125760-2a9bf6288fb2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
 }
 
 .container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .list {
@@ -93,7 +94,7 @@ footer {
   height: 100%;
 }
 
-.about-me {
+/* .about-me {
   display: flex;
   padding: 50px;
   margin-bottom: 20px;
@@ -101,24 +102,47 @@ footer {
   font-size: 20px;
   align-items: center;
   height: 200px;
+  float: right;
+  background-color: var(--primary);
+} */
+
+.about-me p {
+  background-color: var(--primary);
 }
 
 .image {
   height: 200px;
   width: 200px;
   padding-right: 50px;
-}
-.my-work {
-  display: flex;
-  padding: 50px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  align-items: center;
-  height: 200px;
+  background-color: var(--primary);
 }
 
-.contact-me {
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: lightgray;
+  border: 5px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+.wrapper > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+}
+
+/* .wrapper > p {
+
+} */
+
+.me-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .my-work {
   display: flex;
   padding: 50px;
   margin-bottom: 20px;
@@ -126,4 +150,21 @@ footer {
   font-size: 20px;
   align-items: center;
   height: 200px;
-}
+} */
+
+/* .contact-me {
+  display: flex;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  align-items: center;
+  height: 200px; 
+}*/
+
+/* extra images that could be used for figure element*/
+
+/* https: //media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=;;
+https: //images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D; */
+
+/* rgb(14, 121, 89)  green color*/
