@@ -124,7 +124,7 @@ p {
   margin-bottom: 15px;
   pmargin-left: 220px;
   align-items: center;
-  color: rgb(51, 140, 182);
+  color: var(--primary);
 }
 
 .wrapper > h2 {
@@ -161,8 +161,10 @@ p {
   width: 200px;
   background-image: url(https://images.unsplash.com/photo-1529647549218-0600d73bdfee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zmx1ZmZ5JTIwY2xvdWRzfGVufDB8fDB8fHww);
   /* border: 3px solid red; */
-  transition-duration: 500ms;
+  transition-duration: 700ms;
+  transition-property: transform;
 }
 
 .project-images:hover {
+  transform: scale(90%);
 }
