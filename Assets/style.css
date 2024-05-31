@@ -58,7 +58,7 @@ header nav ul li {
 } */
 
 main {
-  border: 2px dashed blue;
+  /* border: 2px dashed blue; */
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
@@ -70,7 +70,7 @@ main {
 
 section {
   font-size: 20px;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
 }
 
 footer {
@@ -115,7 +115,7 @@ footer {
   justify-content: space-between;
   align-items: stretch;
   background-color: var(--secondary);
-  border: 5px solid black;
+  /* border: 5px solid black; */
   margin: 20px;
   padding: 10px;
 }
@@ -124,13 +124,15 @@ p {
   margin-bottom: 15px;
   pmargin-left: 220px;
   align-items: center;
+  color: rgb(51, 140, 182);
 }
 
 .wrapper > h2 {
   flex: 0 0 20%;
   padding-right: 25px;
   font-size: 40px;
-  border-right: 3px solid black;
+  border-right: 7px solid var(--primary);
+  color: var(--primary);
   text-align: right;
 }
 
@@ -157,6 +159,10 @@ p {
 .project-images {
   height: 200px;
   width: 200px;
-  background-color: lightblue;
-  border: 3px solid red;
+  background-image: url(https://images.unsplash.com/photo-1529647549218-0600d73bdfee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zmx1ZmZ5JTIwY2xvdWRzfGVufDB8fDB8fHww);
+  /* border: 3px solid red; */
+  transition-duration: 500ms;
+}
+
+.project-images:hover {
 }
