@@ -49,6 +49,7 @@ header nav ul li a {
 }
 
 main {
+  border: 2px dashed blue;
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -57,7 +58,6 @@ main {
 section {
   font-size: 20px;
   background-color: var(--primary);
-  /* border-left: 5px solid var(--secondary); */
 }
 
 footer {
@@ -74,37 +74,10 @@ footer {
   background-position: center;
 }
 
-.container {
-  display: flex;
-  /* align-items: center; */
-}
-
 .list {
   list-style-type: none;
   /* border-right: 10px solid rgb(43, 43, 187); */
 }
-
-.sidebar {
-  display: flex;
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: left;
-  width: 20%;
-  height: 100%;
-}
-
-/* .about-me {
-  display: flex;
-  padding: 50px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  align-items: center;
-  height: 200px;
-  float: right;
-  background-color: var(--primary);
-} */
 
 .about-me p {
   background-color: var(--primary);
@@ -113,58 +86,63 @@ footer {
 .image {
   height: 200px;
   width: 200px;
-  padding-right: 50px;
-  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  /* padding-right: 50px; */
+  /* background-color: var(--primary); */
 }
+
+/* below is what we worked on together and i finished some of the rest */
+
+/* now you can work on making it look better visually */
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
   background-color: lightgray;
   border: 5px solid black;
   margin: 20px;
   padding: 10px;
 }
+
+p {
+  margin-bottom: 15px;
+  pmargin-left: 220px;
+  align-items: center;
+}
+
 .wrapper > h2 {
   flex: 0 0 20%;
-  text-align: right;
+  padding-right: 25px;
+  font-size: 40px;
+  border-right: 3px solid black;
 }
 
-/* .wrapper > p {
+.wrapper > div {
+  flex: 0 0 77%;
+}
 
+/* .wrapper > a {
+  display: flex;
+  justify-content: center;
 } */
 
-.me-wrapper {
+.work-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-/* .my-work {
-  display: flex;
-  padding: 50px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  align-items: center;
+.work-container > a {
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.project-images {
   height: 200px;
-} */
-
-/* .contact-me {
-  display: flex;
-  padding: 50px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  align-items: center;
-  height: 200px; 
-}*/
-
-/* extra images that could be used for figure element*/
-
-/* https: //media.istockphoto.com/id/1400234736/photo/veins-of-green-and-blue-rose-petals.webp?b=1&s=170667a&w=0&k=20&c=-T8OyT-IXX7Azu-OLapiTZ24mAaY0eR9gUeU5c_MR-0=;;
-https: //images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D; */
-
-/* rgb(14, 121, 89)  green color*/
+  width: 200px;
+  background-color: lightblue;
+  border: 3px solid red;
+}
