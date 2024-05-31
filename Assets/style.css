@@ -19,6 +19,7 @@ header {
 h1 {
   align-self: center;
   font-size: 55px;
+  color: var(--secondary);
 }
 /* header img h1 {
   display: inline-block;
@@ -35,7 +36,6 @@ header nav {
   margin-top: 50px;
   margin-right: 20px;
   margin-left: 300px;
-
   font-size: 20px;
   background-color: var(--primary);
 }
@@ -47,9 +47,10 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 50px;
   background-color: var(--primary);
+  color: var(--secondary);
 }
 
 /* header nav ul li a {
@@ -58,9 +59,13 @@ header nav ul li {
 
 main {
   border: 2px dashed blue;
-  max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: var(--secondary);
 }
 
 section {
@@ -74,20 +79,20 @@ footer {
 }
 
 .pretty {
-  height: 300px;
+  height: 350px;
   width: 100%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   background-image: url(https://images.unsplash.com/photo-1593328125760-2a9bf6288fb2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
 }
 
-.list {
+/* .list {
   list-style-type: none;
-  /* border-right: 10px solid rgb(43, 43, 187); */
-}
+  border-right: 10px solid rgb(43, 43, 187);
+} */
 
-.about-me p {
+.about-me {
   background-color: var(--primary);
 }
 
@@ -109,7 +114,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  background-color: lightgray;
+  background-color: var(--secondary);
   border: 5px solid black;
   margin: 20px;
   padding: 10px;
@@ -126,6 +131,7 @@ p {
   padding-right: 25px;
   font-size: 40px;
   border-right: 3px solid black;
+  text-align: right;
 }
 
 .wrapper > div {
