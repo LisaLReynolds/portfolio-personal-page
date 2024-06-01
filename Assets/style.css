@@ -101,9 +101,9 @@ footer {
   border-right: 10px solid rgb(43, 43, 187);
 } */
 
-.about-me {
+/* .about-me {
   background-color: var(--primary);
-}
+} */
 
 .image {
   height: 200px;
@@ -187,5 +187,4 @@ p {
   transform: scale(90%);
 }
 
-@media screen and {
-}
+
